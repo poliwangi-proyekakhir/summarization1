@@ -23,4 +23,6 @@ Route::get('/admin', function(){
 	return view('admin.index');
 });
 
-Route::resource('admin/users', 'AdminUsersController');
+Route::resource('/users', 'AdminUsersController');
+
+Route::get('/dashboard', 'AdminController@dashboard');

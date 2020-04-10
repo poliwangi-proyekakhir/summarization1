@@ -13,7 +13,7 @@ class AdminUsersController extends Controller
      */
     public function index()
     {
-        return view ('admin.users.index');
+        return view ('layouts.users');
     }
 
     /**
@@ -23,7 +23,7 @@ class AdminUsersController extends Controller
      */
     public function create()
     {
-        return view ('admin.users.create');
+        return view ('layouts.users.create');
     }
 
     /**
