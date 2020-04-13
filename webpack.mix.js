@@ -15,17 +15,17 @@ mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 
 .styles([
-   		'resources/css/libs/blog-spot.css',
-   		'resources/css/libs/bootstrap.css',
-   		'resources/css/libs/font-awesome.css',
-   		'resources/css/libs/metisMenu.css',
-   		'resources/css/libs/sb-admin-2.css'
+   		'/libs/blog-spot.css',
+   		'/libs/bootstrap.css',
+   		'/libs/font-awesome.css',
+   		'/libs/metisMenu.css',
+   		'/libs/sb-admin-2.css'
    	], './public/css/libs.css')
 
    .scripts([
-   		'resources/js/js/libs/jquery.js',
-   		'resources/js/js/libs/bootstrap.js',
-   		'resources/js/js/libs/metisMenu.js',
-   		'resources/js/js/libs/sb-admin-2.js'
-   		'resources/js/js/libs/scripts.js'
+   		'/libs/jquery.js',
+   		'/libs/bootstrap.js',
+   		'/libs/metisMenu.js',
+   		'/libs/sb-admin-2.js'
+   		'/libs/scripts.js'
    		], './public/js/libs.js');
